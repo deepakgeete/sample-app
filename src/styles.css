@@ -1,0 +1,53 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.headerRowContainer {
+  display: grid;
+  grid-template-columns:auto auto auto auto auto auto auto auto;
+  align-items:center;
+}
+
+.paddingTop {
+  padding-top: 16px;
+}
+
+.optionRowContainer {
+  display: grid;
+  grid-template-columns:auto auto auto auto auto;
+  align-items: center;
+}
+
+.productsContainer {
+  display: grid;
+  grid-template-columns:auto auto;
+  align-items: center;
+}
+
+.productFeaturesContainer {
+  display: grid;
+  grid-template-columns:auto auto auto;
+  align-items: center;
+}
+
+.availablePlansContainer {
+  display: grid;
+  align-items: center;
+}
+
+.centerRowContents {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.componentSeparator {
+  height: 3px;
+  background-color: #ccc;
+  margin: 20px 0;
+}
+
+.boldText {
+  font-weight: bold;
+}
